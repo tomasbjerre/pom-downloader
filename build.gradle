@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+project.ext.tags = ['pom', 'maven']
+group = 'se.bjurr.pomdownloader'
+description = 'Command line tool that downloads pom files from remote Maven repository.'
+
+
+apply plugin: 'application'
+mainClassName = 'se.bjurr.pomdownloader.main.Main'
+
+buildscript {
+ repositories {
+  maven { url "https://jitpack.io" }
+ }
+ dependencies {
+  classpath 'com.github.tomasbjerre:gradle-scripts:master-SNAPSHOT'
+ }
+}
+apply from: project.buildscript.classLoader.getResource('java.gradle').toURI()
+apply from: project.buildscript.classLoader.getResource('changelog.gradle').toURI()
+apply from: project.buildscript.classLoader.getResource('release.gradle').toURI()
+
+dependencies {
+ compile 'se.softhouse:jargo:0.1.1'
+ testCompile 'junit:junit:4.12'
+ testCompile 'org.assertj:assertj-core:3.12.2'
+}
