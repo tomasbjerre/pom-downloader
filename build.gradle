@@ -1,10 +1,8 @@
 apply plugin: 'java'
-apply plugin: 'eclipse'
 
 project.ext.tags = ['pom', 'maven']
 group = 'se.bjurr.pomdownloader'
 description = 'Command line tool that downloads pom files from remote Maven repository.'
-
 
 apply plugin: 'application'
 mainClassName = 'se.bjurr.pomdownloader.main.Main'
