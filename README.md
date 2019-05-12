@@ -1,7 +1,5 @@
 # Pom Downloader
 [![Build Status](https://travis-ci.org/tomasbjerre/pom-downloader.svg?branch=master)](https://travis-ci.org/tomasbjerre/pom-downloader)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/se.bjurr.pomdownloader/pom-downloader/badge.svg)](https://maven-badges.herokuapp.com/maven-central/se.bjurr.pomdownloader/pom-downloader)
-[![Bintray](https://api.bintray.com/packages/tomasbjerre/tomasbjerre/se.bjurr.pomdownloader%3Apom-downloader/images/download.svg) ](https://bintray.com/tomasbjerre/tomasbjerre/se.bjurr.pomdownloader%3Apom-downloader/_latestVersion)
 
 This is a command line tool that downloads pom files from a remote Maven repository.
 
@@ -11,7 +9,7 @@ You may try this on a public repository but be careful! Is is very likely a viol
 
 Example, download all pom-files available in any group starting with `se.bjurr.violations`:
 ```shell
-./pom-downloader -g se.bjurr.violations -pt 100 -th 2
+./gradlew run --args="-g se.bjurr.violations -pt 100 -th 2"
 ```
 
 # Usage
