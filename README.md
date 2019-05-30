@@ -1,5 +1,6 @@
 # Pom Downloader
 [![Build Status](https://travis-ci.org/tomasbjerre/pom-downloader.svg?branch=master)](https://travis-ci.org/tomasbjerre/pom-downloader)
+[![NPM](https://img.shields.io/npm/v/pom-downloader.svg?style=flat-square) ](https://www.npmjs.com/package/pom-downloader)
 
 This is a command line tool that downloads pom files from a remote Maven repository.
 
@@ -8,6 +9,13 @@ Intended to be used on a private Maven repository (like Nexus or Artifactory). A
 You may try this on a public repository but be careful! Is is very likely a violation of its terms of service. See: https://central.sonatype.org/terms.html
 
 Example, download all pom-files available in any group starting with `se.bjurr.violations`:
+
+```shell
+npx pom-downloader -g se.bjurr.violations -pt 100 -th 2
+```
+
+Or with Gradle:
+
 ```shell
 ./gradlew run --args="-g se.bjurr.violations -pt 100 -th 2"
 ```
