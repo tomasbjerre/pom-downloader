@@ -3,7 +3,7 @@
 
 Changelog of Pom downloader.
 
-## 1.2
+## 1.3
 ### No issue
 
 **NPM packaging**
