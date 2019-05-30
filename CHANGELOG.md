@@ -3,13 +3,23 @@
 
 Changelog of Pom downloader.
 
-## Unreleased
+## 1.2
 ### No issue
 
-**first**
+**NPM packaging**
 
 
-[a88cbe05e985353](https://github.com/tomasbjerre/pom-downloader/commit/a88cbe05e985353) Tomas Bjerre *2019-04-28 08:20:11*
+[c2a23b80c10005a](https://github.com/tomasbjerre/pom-downloader/commit/c2a23b80c10005a) Tomas Bjerre *2019-05-30 06:00:38*
+
+**update**
+
+
+[4c57dcb9bff73d3](https://github.com/tomasbjerre/pom-downloader/commit/4c57dcb9bff73d3) Tomas Bjerre *2019-05-12 15:04:25*
+
+**update**
+
+
+[7b44983a5c70c67](https://github.com/tomasbjerre/pom-downloader/commit/7b44983a5c70c67) Tomas Bjerre *2019-05-12 14:58:37*
 
 
  
