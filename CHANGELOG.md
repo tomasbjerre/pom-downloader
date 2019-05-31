@@ -3,6 +3,20 @@
 
 Changelog of Pom downloader.
 
+## 1.4
+### No issue
+
+**doc**
+
+
+[89d587dc0e5cf00](https://github.com/tomasbjerre/pom-downloader/commit/89d587dc0e5cf00) Tomas Bjerre *2019-05-31 05:09:03*
+
+**java11**
+
+
+[a13d4511036b1db](https://github.com/tomasbjerre/pom-downloader/commit/a13d4511036b1db) Tomas Bjerre *2019-05-30 08:26:56*
+
+
 ## 1.3
 ### No issue
 
