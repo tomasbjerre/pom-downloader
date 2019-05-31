@@ -14,10 +14,10 @@ Example, download all pom-files available in any group starting with `se.bjurr.v
 npx pom-downloader -g se.bjurr.violations -pt 100 -th 2
 ```
 
-Or with Gradle:
+Or with Java:
 
 ```shell
-./gradlew run --args="-g se.bjurr.violations -pt 100 -th 2"
+java -jar pom-downloader-*.jar -g se.bjurr.violations -pt 100 -th 2
 ```
 
 # Usage
